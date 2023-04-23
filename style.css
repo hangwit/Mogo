@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 1200px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.header_body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.header_logo {
+    align-self: flex-start;
+    color: #95E1D3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_menu-link {
+    margin-left: 30px;
+    color:#95E1D3;    
+    font-family: 'Montserrat', sans-serif;
+}
+.header_menu-link a{
+    color: #95E1D3;
+    font-size: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat';
+
+    transition: 0.4s;
+}
+.header_menu-link a:hover{
+    color: #F38181;
+    border-bottom: 3px solid #F38181;;
+}
+
+.main {
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.main_body {
+    text-align: center;
+}
+.main_title {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 68px;
+}
+.main_text {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+.main_box {
+    background-color: #F38181;
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footer {
+    margin-top: 65px;
+}
+.footer_body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_conteiner{
+    width: 327.78px;
+    height: 76px;
+    display: flex;
+    margin: 50px auto;
+    
+
+}
+.footer_span {
+    font-size:37px;
+    color: #95E1D3
+}
+.footer_block {
+    margin-left: 18px;
+}
+.footer_titel {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer_text {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #B6B6B6;
+}
+.block_2{
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.block_2-body {
+    text-align: center;
+}
+.block_2-title {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 68px;
+}
+.block_2-text {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+.block_2-box {
+    background-color: #F38181;
+    width: 60px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.main2_description {
+    margin-top: 85px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #B6B6B6;
+}
+.main2_block {
+    display: flex;
+    justify-content: space-between;
+    width:  1210px;
+    margin-top: 35px;
+}
+
+.main2_block_2-img {
+    width: 380px;
+    height: 470px;
+}
+.main2_block_2-name {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    font-variant: all-small-caps;
+    color: #333333;
+}
+.main2_block_2-job {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    color: #B6B6B6;
+    font-style: italic;
+}
+
+.end-line {
+    width:  1200px;
+    height: 1px;
+    border: 1px solid #B6B6B6;
+    margin-top: 80px;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.footer2_text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 22px;
+}
+.footer2_text-ext{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    color: #F38181;
+}
+
+.footer2_type {
+    display: flex;
+}
+.footer2_type-bd{
+    width: 230px;
+    height: 39px;
+    border: 1px solid #B6B6B6;
+}
+.footer2_type_text {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    color: #B6B6B6;
+    margin: 11px 10px;
+
+}
+.footer2_button {
+    width: 150px;
+    height: 40px;
+    background: #95E1D3;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 11px;
+    color: #FFFFFF;
+}
